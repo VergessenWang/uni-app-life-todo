@@ -5,6 +5,20 @@
 			"style": {
 				"navigationBarTitleText": "uni-app"
 			}
+		}, {
+			"path": "pages/about/about",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
 		}
 	],
 	"globalStyle": {
@@ -12,5 +26,32 @@
 		"navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#007AFF",
+		"selectedColor": "#4CD964",
+		"borderStyle": "black",
+		"list": [{
+				"pagePath": "pages/index/index",
+				// "text": "首页",
+				// 本地图片 大小40kb 尺寸81*81px 仅支持 .png、.jpg、.jpeg 格式
+				"iconPath": "static/index/home-logo.png",
+				"selectedIconPath": "static/index/home-logo-active.png"
+			},
+			// {
+			// 	"pagePath": "pages/about/about",
+			// 	"text": "关于",
+			// 	// 本地图片 大小40kb 尺寸81*81px
+			// 	"iconPath": "static/index/home-logo.svg",
+			// 	"selectedIconPath": "static/index/home-logo-active.svg"
+			// },
+			{
+				"pagePath": "pages/my/my",
+				// "text": "我的",
+				// 本地图片 大小40kb 尺寸81*81px
+				"iconPath": "static/index/my-logo.png",
+				"selectedIconPath": "static/index/my-logo-active.png"
+			}
+		]
 	}
 }
